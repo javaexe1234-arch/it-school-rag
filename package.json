@@ -1,0 +1,14 @@
+{
+  "name": "codecraft-academy",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Сайт IT-школы с RAG-ассистентом на Gemini",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build:kb": "node lib/kb.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

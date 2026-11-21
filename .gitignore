@@ -1,0 +1,6 @@
+.env
+.cache/
+node_modules/
+google-service-account.json
+*service-account*.json
+~$*

@@ -1,0 +1,141 @@
+/* Переводы интерфейса: русский, узбекский (латиница), английский */
+const I18N = {
+  ru: {
+    'nav.stats': 'Результаты', 'nav.directions': 'Направления', 'nav.teachers': 'Учителя', 'nav.news': 'Новости', 'nav.contacts': 'Контакты',
+    'hero.choose': 'Выбрать направление', 'hero.consult': 'Бесплатная консультация',
+    'hero.f1': 'Практика с первого занятия', 'hero.f2': 'Менторы из IT-компаний', 'hero.f3': 'Помощь в трудоустройстве',
+    'hero.float': 'студентов учатся сейчас',
+    'stats.title': 'Результаты нашего обучения', 'stats.subtitle': 'Цифры, которыми мы гордимся',
+    'dir.title': 'Направления обучения', 'dir.subtitle': 'Выберите профессию, которая вам по душе', 'dir.all': 'Все',
+    'cat.dev': 'Разработка', 'cat.design': 'Дизайн', 'cat.data': 'Данные и ИИ', 'cat.infra': 'Инфраструктура',
+    'dir.duration': 'Длительность', 'dir.months': 'мес.', 'dir.price': 'Стоимость / мес.', 'dir.currency': 'сум',
+    'dir.more': 'Подробнее', 'dir.enroll': 'Записаться на курс', 'dir.skills': 'Чему научитесь', 'dir.teachers': 'Преподаватели',
+    'dir.format': 'Формат', 'dir.formatVal': 'Офлайн / онлайн',
+    'dir.total': 'Весь курс', 'dir.prepay': 'при оплате сразу', 'dir.installment': 'есть рассрочка 0%',
+    'teach.title': 'Наши преподаватели', 'teach.subtitle': 'Практикующие специалисты из ведущих IT-компаний',
+    'teach.exp': 'лет опыта',
+    'news.title': 'Мероприятия и новости', 'news.subtitle': 'Жизнь нашего учебного центра',
+    'news.all': 'Все', 'news.events': 'Мероприятия', 'news.news': 'Новости', 'news.event': 'Мероприятие', 'news.newsOne': 'Новость',
+    'news.soon': '● Скоро', 'news.past': 'Прошло', 'news.empty': 'Пока нет публикаций',
+    'contacts.title': 'Контакты и обратная связь', 'contacts.subtitle': 'Оставьте заявку — мы перезвоним и ответим на все вопросы',
+    'contacts.address': 'Адрес', 'contacts.phone': 'Телефон', 'contacts.hours': 'Режим работы',
+    'form.title': 'Записаться или задать вопрос', 'form.name': 'Ваше имя', 'form.namePh': 'Например, Алишер', 'form.phone': 'Телефон',
+    'form.direction': 'Направление', 'form.anyDirection': 'Пока не определился(-ась)', 'form.message': 'Сообщение',
+    'form.messagePh': 'Ваш вопрос или удобное время для звонка', 'form.agree': 'Согласен(-на) на обработку персональных данных',
+    'form.group': 'Группа и время занятий', 'form.anyGroup': 'Подобрать вместе с администратором',
+    'form.free': 'свободно мест', 'form.full': 'мест нет', 'form.trial': 'Сначала только бесплатное пробное занятие',
+    'form.enrolled': '✓ Вы записаны:', 'form.callback': 'Администратор свяжется с вами для подтверждения.',
+    'form.duplicate': '✓ Вы уже записаны в эту группу — администратор свяжется с вами.',
+    'form.noSeats': 'В этой группе только что закончились места — выберите другую группу.',
+    'form.submit': 'Отправить заявку', 'form.ok': '✓ Спасибо! Заявка отправлена, мы скоро свяжемся с вами.',
+    'form.err': 'Пожалуйста, заполните имя, корректный телефон и подтвердите согласие.',
+    'footer.rights': 'Все права защищены.', 'footer.admin': 'Админ-панель',
+    'chat.title': 'Ассистент школы', 'chat.subtitle': 'Отвечу о курсах, ценах и расписании', 'chat.placeholder': 'Ваш вопрос...',
+    'chat.clear': 'Начать заново', 'chat.sources': 'Источники',
+    'chat.greeting': 'Здравствуйте! 👋 Я ассистент CodeCraft Academy. Спросите меня о курсах, ценах, рассрочке, расписании преподавателей или о том, как записаться.',
+    'chat.error': 'Не удалось получить ответ. Попробуйте ещё раз или позвоните нам: +998 71 200 00 00.',
+    'chat.rate': 'Слишком много сообщений. Подождите минуту.',
+    'chat.offline': 'Ассистент работает только при запуске сайта через сервер (npm start).',
+    'chat.s': ['Сколько стоит Frontend?', 'Есть ли рассрочка?', 'Как записаться?', 'Можно ли вернуть деньги?', 'Когда занятия по Python?'],
+    months: ['янв', 'фев', 'мар', 'апр', 'мая', 'июн', 'июл', 'авг', 'сен', 'окт', 'ноя', 'дек']
+  },
+  uz: {
+    'nav.stats': 'Natijalar', 'nav.directions': 'Yo‘nalishlar', 'nav.teachers': 'O‘qituvchilar', 'nav.news': 'Yangiliklar', 'nav.contacts': 'Aloqa',
+    'hero.choose': 'Yo‘nalishni tanlash', 'hero.consult': 'Bepul konsultatsiya',
+    'hero.f1': 'Birinchi darsdan amaliyot', 'hero.f2': 'IT-kompaniyalardan mentorlar', 'hero.f3': 'Ishga joylashishda yordam',
+    'hero.float': 'talaba hozir o‘qimoqda',
+    'stats.title': 'O‘qitish natijalarimiz', 'stats.subtitle': 'Biz faxrlanadigan raqamlar',
+    'dir.title': 'Ta’lim yo‘nalishlari', 'dir.subtitle': 'O‘zingizga yoqqan kasbni tanlang', 'dir.all': 'Barchasi',
+    'cat.dev': 'Dasturlash', 'cat.design': 'Dizayn', 'cat.data': 'Ma’lumotlar va SI', 'cat.infra': 'Infratuzilma',
+    'dir.duration': 'Davomiyligi', 'dir.months': 'oy', 'dir.price': 'Narxi / oy', 'dir.currency': 'so‘m',
+    'dir.more': 'Batafsil', 'dir.enroll': 'Kursga yozilish', 'dir.skills': 'Nimalarni o‘rganasiz', 'dir.teachers': 'O‘qituvchilar',
+    'dir.format': 'Format', 'dir.formatVal': 'Oflayn / onlayn',
+    'dir.total': 'Butun kurs', 'dir.prepay': 'birdaniga to‘lansa', 'dir.installment': '0% muddatli to‘lov bor',
+    'teach.title': 'Bizning o‘qituvchilar', 'teach.subtitle': 'Yetakchi IT-kompaniyalardan amaliyotchi mutaxassislar',
+    'teach.exp': 'yillik tajriba',
+    'news.title': 'Tadbirlar va yangiliklar', 'news.subtitle': 'O‘quv markazimiz hayoti',
+    'news.all': 'Barchasi', 'news.events': 'Tadbirlar', 'news.news': 'Yangiliklar', 'news.event': 'Tadbir', 'news.newsOne': 'Yangilik',
+    'news.soon': '● Tez orada', 'news.past': 'O‘tib ketgan', 'news.empty': 'Hozircha nashrlar yo‘q',
+    'contacts.title': 'Aloqa va qayta aloqa', 'contacts.subtitle': 'Ariza qoldiring — biz qo‘ng‘iroq qilib, barcha savollarga javob beramiz',
+    'contacts.address': 'Manzil', 'contacts.phone': 'Telefon', 'contacts.hours': 'Ish vaqti',
+    'form.title': 'Yozilish yoki savol berish', 'form.name': 'Ismingiz', 'form.namePh': 'Masalan, Alisher', 'form.phone': 'Telefon',
+    'form.direction': 'Yo‘nalish', 'form.anyDirection': 'Hali aniqlamadim', 'form.message': 'Xabar',
+    'form.messagePh': 'Savolingiz yoki qo‘ng‘iroq uchun qulay vaqt', 'form.agree': 'Shaxsiy ma’lumotlarimni qayta ishlashga roziman',
+    'form.group': 'Guruh va dars vaqti', 'form.anyGroup': 'Administrator bilan birga tanlash',
+    'form.free': 'bo‘sh joy', 'form.full': 'joy yo‘q', 'form.trial': 'Avval faqat bepul sinov darsi',
+    'form.enrolled': '✓ Siz yozildingiz:', 'form.callback': 'Administrator tasdiqlash uchun siz bilan bog‘lanadi.',
+    'form.duplicate': '✓ Siz bu guruhga allaqachon yozilgansiz — administrator siz bilan bog‘lanadi.',
+    'form.noSeats': 'Bu guruhda joylar hozirgina tugadi — boshqa guruhni tanlang.',
+    'form.submit': 'Ariza yuborish', 'form.ok': '✓ Rahmat! Ariza yuborildi, tez orada siz bilan bog‘lanamiz.',
+    'form.err': 'Iltimos, ism, to‘g‘ri telefon raqamini kiriting va roziligingizni tasdiqlang.',
+    'footer.rights': 'Barcha huquqlar himoyalangan.', 'footer.admin': 'Admin panel',
+    'chat.title': 'Maktab yordamchisi', 'chat.subtitle': 'Kurslar, narxlar va jadval haqida javob beraman', 'chat.placeholder': 'Savolingiz...',
+    'chat.clear': 'Qaytadan boshlash', 'chat.sources': 'Manbalar',
+    'chat.greeting': 'Assalomu alaykum! 👋 Men CodeCraft Academy yordamchisiman. Kurslar, narxlar, muddatli to‘lov, o‘qituvchilar jadvali yoki ro‘yxatdan o‘tish haqida so‘rang.',
+    'chat.error': 'Javob olinmadi. Qayta urinib ko‘ring yoki qo‘ng‘iroq qiling: +998 71 200 00 00.',
+    'chat.rate': 'Juda ko‘p xabar. Bir daqiqa kuting.',
+    'chat.offline': 'Yordamchi faqat sayt server orqali ishga tushirilganda ishlaydi (npm start).',
+    'chat.s': ['Frontend narxi qancha?', 'Muddatli to‘lov bormi?', 'Qanday yozilsam bo‘ladi?', 'Pulni qaytarish mumkinmi?', 'Python darslari qachon?'],
+    months: ['yan', 'fev', 'mar', 'apr', 'may', 'iyn', 'iyl', 'avg', 'sen', 'okt', 'noy', 'dek']
+  },
+  en: {
+    'nav.stats': 'Results', 'nav.directions': 'Courses', 'nav.teachers': 'Teachers', 'nav.news': 'News', 'nav.contacts': 'Contacts',
+    'hero.choose': 'Choose a course', 'hero.consult': 'Free consultation',
+    'hero.f1': 'Practice from day one', 'hero.f2': 'Mentors from IT companies', 'hero.f3': 'Career support',
+    'hero.float': 'students learning now',
+    'stats.title': 'Our learning results', 'stats.subtitle': 'Numbers we are proud of',
+    'dir.title': 'Study tracks', 'dir.subtitle': 'Pick the profession you love', 'dir.all': 'All',
+    'cat.dev': 'Development', 'cat.design': 'Design', 'cat.data': 'Data & AI', 'cat.infra': 'Infrastructure',
+    'dir.duration': 'Duration', 'dir.months': 'mo.', 'dir.price': 'Price / month', 'dir.currency': 'UZS',
+    'dir.more': 'Learn more', 'dir.enroll': 'Enroll in the course', 'dir.skills': 'What you will learn', 'dir.teachers': 'Teachers',
+    'dir.format': 'Format', 'dir.formatVal': 'Offline / online',
+    'dir.total': 'Full course', 'dir.prepay': 'paid upfront', 'dir.installment': '0% installments available',
+    'teach.title': 'Our teachers', 'teach.subtitle': 'Practicing experts from leading IT companies',
+    'teach.exp': 'years of experience',
+    'news.title': 'Events and news', 'news.subtitle': 'Life at our learning center',
+    'news.all': 'All', 'news.events': 'Events', 'news.news': 'News', 'news.event': 'Event', 'news.newsOne': 'News',
+    'news.soon': '● Upcoming', 'news.past': 'Past', 'news.empty': 'No posts yet',
+    'contacts.title': 'Contacts and feedback', 'contacts.subtitle': 'Leave a request — we will call you back and answer all questions',
+    'contacts.address': 'Address', 'contacts.phone': 'Phone', 'contacts.hours': 'Opening hours',
+    'form.title': 'Enroll or ask a question', 'form.name': 'Your name', 'form.namePh': 'e.g. Alisher', 'form.phone': 'Phone',
+    'form.direction': 'Course', 'form.anyDirection': 'Not decided yet', 'form.message': 'Message',
+    'form.messagePh': 'Your question or a convenient time to call', 'form.agree': 'I agree to the processing of my personal data',
+    'form.group': 'Group and class time', 'form.anyGroup': 'Choose together with an administrator',
+    'form.free': 'seats left', 'form.full': 'full', 'form.trial': 'Just a free trial lesson first',
+    'form.enrolled': '✓ You are enrolled:', 'form.callback': 'An administrator will contact you to confirm.',
+    'form.duplicate': '✓ You are already enrolled in this group — an administrator will contact you.',
+    'form.noSeats': 'This group has just filled up — please choose another group.',
+    'form.submit': 'Send request', 'form.ok': '✓ Thank you! Your request was sent, we will contact you soon.',
+    'form.err': 'Please enter your name, a valid phone number and confirm consent.',
+    'footer.rights': 'All rights reserved.', 'footer.admin': 'Admin panel',
+    'chat.title': 'School assistant', 'chat.subtitle': 'Ask about courses, prices and schedule', 'chat.placeholder': 'Your question...',
+    'chat.clear': 'Start over', 'chat.sources': 'Sources',
+    'chat.greeting': 'Hello! 👋 I am the CodeCraft Academy assistant. Ask me about courses, prices, installments, teacher schedules or how to enroll.',
+    'chat.error': 'Could not get an answer. Please try again or call us: +998 71 200 00 00.',
+    'chat.rate': 'Too many messages. Please wait a minute.',
+    'chat.offline': 'The assistant only works when the site is run via the server (npm start).',
+    'chat.s': ['How much is Frontend?', 'Is there an installment plan?', 'How do I enroll?', 'Can I get a refund?', 'When are Python classes?'],
+    months: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
+  }
+};
+
+const Lang = {
+  KEY: 'itschool_lang',
+  current: 'ru',
+  init() {
+    let l = null;
+    try { l = localStorage.getItem(Lang.KEY); } catch (e) {}
+    if (!l || !I18N[l]) {
+      const nav = (navigator.language || 'ru').slice(0, 2);
+      l = I18N[nav] ? nav : 'ru';
+    }
+    Lang.current = l;
+  },
+  set(l) {
+    if (!I18N[l]) return;
+    Lang.current = l;
+    try { localStorage.setItem(Lang.KEY, l); } catch (e) {}
+  },
+  t(key) { return (I18N[Lang.current] && I18N[Lang.current][key]) || I18N.ru[key] || key; }
+};
+Lang.init();
